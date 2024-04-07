@@ -42,7 +42,7 @@ public class ModalidadController {
 		 if (objSalida == null) {
 			 lstMensajes.add("Error en el registro");
 		 }else {
-			 lstMensajes.add("Se registro la modalidad de id : " + objSalida.getIdModalidad());
+			 lstMensajes.add("Se registró la modalidad de id : " + objSalida.getIdModalidad());
 		 }
 		return ResponseEntity.ok(lstMensajes);
 	}
